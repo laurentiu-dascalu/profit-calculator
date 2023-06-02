@@ -23,7 +23,7 @@ import TheSwitch from "../UI/TheSwitch.vue";
         <input
           id="cost"
           name="cost"
-          type="text"
+          type="number"
           :value="cost"
           @input="$emit('update:cost', Number($event.target.value))"
         />
@@ -35,7 +35,7 @@ import TheSwitch from "../UI/TheSwitch.vue";
         <input
           id="discount"
           name="discount"
-          type="text"
+          type="number"
           :value="discount"
           @input="$emit('update:discount', Number($event.target.value))"
           :disabled="!enableDiscount"
