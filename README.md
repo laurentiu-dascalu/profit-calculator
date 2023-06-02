@@ -1,4 +1,4 @@
-# profit-calculator - [LIVE DEMO](https://petro.weblama.ro/)
+# Profit Calculator - [LIVE DEMO](https://petro.weblama.ro/)
 
 This template should help get you started developing with Vue 3 in Vite.
 
